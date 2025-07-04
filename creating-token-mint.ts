@@ -32,7 +32,6 @@ const createTokenMint = async () => {
 
 
     const tokenMint = await buildCreateMintTransaction(connection, keyPair.publicKey, 2);
-    console.log('tokenMint', tokenMint);
 }
 
 createTokenMint()
