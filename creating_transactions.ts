@@ -21,7 +21,7 @@ console.log(`receiver's balance : ${balanceOfReceiver}`)
 console.log(`------------------------------------Transaction of sol----------------------------------------------------------------`)
 const transaction = new Transaction();
 
-const lamportsToSend = 5000;
+const lamportsToSend = 50000;
 
 const sendSolInstruction = SystemProgram.transfer({
     toPubkey: receiverPublicKey,
