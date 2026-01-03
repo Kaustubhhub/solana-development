@@ -1,6 +1,7 @@
 import * as web3 from '@solana/web3.js'
 import * as token from '@solana/spl-token'
 
+//buildTokenMint
 async function buildMintToTransaction(
   authority: web3.PublicKey,
   mint: web3.PublicKey,
